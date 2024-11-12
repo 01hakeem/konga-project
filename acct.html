@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Create a New Account </title>
+    <link rel="stylesheet" href="./acct.css"></title>
+</head>
+<body>
+    <div class="signup-form">
+        <h2> Create a new account </h2>
+        <p> It's quick & easy. </p>
+
+        <form>
+            <div class="form-group">
+                <input type="text" placeholder="First name" required>
+            </div>
+            
+            <div class="form-group">
+                <input type="text" placeholder="Surname" required>
+            </div>
+                
+            <div class="form-group">
+                <label for="dob"> Date of birth </label>
+                <div style="display: flex; gap: 6px;">
+                    <select name="day" required>
+                        <option value="17">17</option>
+                    </select>
+                        
+                    <select name="month" required>
+                        <option value="Oct">Oct</option>
+                    </select>
+        
+                    <select name="year" required>
+                        <option value="2024">2024</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <div class="gender-options">
+                    <label> <input type="radio" name="gender" required> Female</label>
+                    <label> <input type="radio" name="gender" required> Male</label>
+                    <label> <input type="radio" name="gender" required> Custom</label>
+                </div>
+            </div> 
+
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Mobile number or email" required>
+            </div>
+            
+            <div class="form-group">
+                    <input type="password" name="password" placeholder="New Password" required>
+            </div>
+        
+            <div>
+                <h4 class="txt1"> People who use our service may have uploaded your contact information to Facebook. <a href="https://www.Facebook.com">Learn more.</a></h4>    
+                <h4 class="txt2"> By clicking Sign Up, you agree to our <a href="https://www.Facebook.com"> Terms</a> ,<a href="https://www.Facebook.com">Privacy Policy</a> and <a href="https://www.Facebook.com"> Cookies Policy.</a> You may recieve SMS notificaation from us and can opt out at any time.</h4>
+            </div>
+        
+            <button type="submit" class="btn-signup"> Sign Up </button>
+            <a href="https://www.Facebook.com" class="login-link">Already have an account?</a>
+        </form>    
+    </div>    
+</body>
+</html>
